@@ -31,12 +31,12 @@ driver.switch_to.window(driver.window_handles[0])
 driver.get(vpn_html)
 
 # Navigate through the menu and connect to VPN
-WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH, '//button[@class="next"]')))
+WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, '//button[@class="next"]')))
 for i in range(2):
-    driver.find_element(by = "xpath", value = '//button[@class="next"]').click()
-WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH, '//div[@id="mainBtn"]')))
+    driver.find_element(by="xpath", value='//button[@class="next"]').click()
+WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, '//div[@id="mainBtn"]')))
 driver.find_element(by="xpath", value='//div[@id="mainBtn"]').click()
-WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//div[@class="connected"]')))
+WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, '//div[@class="connected"]')))
 
 # Let the show begin
 driver.get(site)

@@ -1,12 +1,16 @@
-# Python viewbot
+# Python watcher
 
 ## Description:
-* A viewbot script written in python
-* Made using <a href="https://www.selenium.dev/">Selenium</a>
-* Default browser set as <a href="https://www.microsoft.com/en-us/edge">Microsoft Edge</a> using <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/">Microsoft Edge WebDriver</a>. <a href="https://chrome.google.com/webstore/detail/free-vpn-for-chrome-vpn-p/majdfhpaihoncoakbjgbdhglocklcgno?hl=en">VeePN</a> extension is used.
+* A python script that views twitch streams
+* Made using [Selenim](https://www.selenium.dev/)
+* Default browser set as [Microsoft Edge](https://www.microsoft.com/en-us/edge) and uses [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/). [VeePN](https://chrome.google.com/webstore/detail/free-vpn-for-chrome-vpn-p/majdfhpaihoncoakbjgbdhglocklcgno?hl=en) extension is used.
 
 ## Instructions:
-* Make sure <a href="https://www.python.org/">Python</a> is installed in the system
+* Make sure [Python](https://www.python.org/) is installed in the system.
+* Install selenium using
+```python
+pip install selenium
+```
 * Clone the repository :<br>
 ```bash 
 git clone https://github.com/AISHIK999/python_viewbot.git
