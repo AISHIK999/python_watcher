@@ -5,6 +5,7 @@ from selenium.webdriver.edge.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from time import sleep
 
 # Change the channel name below (keep the quotation marks)
 channel_name = "my_channel"
@@ -14,6 +15,7 @@ site = f"https://www.twitch.tv/{channel_name}"
 path_to_webdriver = "./msedgedriver"
 vpn_extension = "./vpn.crx"
 vpn_html = "chrome-extension://majdfhpaihoncoakbjgbdhglocklcgno/html/foreground.html"
+sleep_time = 60*60    # 1 hour runtime
 
 # Edgedriver Options
 options = Options()
@@ -40,3 +42,4 @@ WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, '//div
 
 # Let the show begin
 driver.get(site)
+sleep(sleep_time)
