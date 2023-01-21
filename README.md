@@ -25,7 +25,7 @@ chmod +x msedgedriver
 ```
 * Make changes to the script:
 Open the <code>main.py</code> in a text editor.
-Replace the <b>my_channel</b> value assigned to the variable: <b>channel_name</b> and save it.
+Replace the link in the <b>site</b> variable to the link of the stream you want to view.
 <br>
 Now open the <code>bot.sh</code> file in a text editor and change the active instances and the sleep time as directed by the comments. Save and exit.<br>
 
