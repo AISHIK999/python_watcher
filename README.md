@@ -1,7 +1,7 @@
 # Python watcher
 
 ## Description:
-* A python script that views twitch streams
+* A python script that increases traffic on websites
 * Made using [Selenim](https://www.selenium.dev/)
 * Default browser set as [Microsoft Edge](https://www.microsoft.com/en-us/edge) and uses [Microsoft Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/). [VeePN](https://chrome.google.com/webstore/detail/free-vpn-for-chrome-vpn-p/majdfhpaihoncoakbjgbdhglocklcgno?hl=en) extension is used.
 
